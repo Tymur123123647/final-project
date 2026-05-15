@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #3f4255;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.logo span{
+    color: #f5c400;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart img{
+    width: 25px;
+}
+
+.burger img{
+    width: 28px;
+    cursor: pointer;
+}
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px;
+
+    min-height: 80vh;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-left h1{
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-buttons button{
+    width: 140px;
+    height: 70px;
+
+    border: 2px solid #f5c400;
+    background: white;
+
+    font-size: 20px;
+    color: #3f4255;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.hero-buttons button span{
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.hero-right img{
+    width: 650px;
+}
+
+
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: white;
+
+    padding: 30px 40px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feature img{
+    width: 50px;
+}
+
+.feature h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feature p{
+    color: #777;
+}
+
+
+.text{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.1;
+
+}
+
+ .zabigalovki{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+ }
+
+ .showall{
+
+
+    width: 120px;
+    height: 50px;
+
+    border: none;
+    background: #a0a0b1;
+    color: #c2c5ce;
+    cursor: pointer;
+    
+
+ }
+
+.textil{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nearest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 120px;
+
+    background: #f2f4fa;
+}
+
+.nearest-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nearest-left h2{
+    font-size: 52px;
+    font-weight: 300;
+    color: #3f4255;
+}
+
+.nearest-left p{
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #777;
+}
+
+.nearest-right{
+    display: flex;
+    align-items: center;
+}
+
+.nearest-right input{
+    width: 420px;
+    height: 70px;
+
+    border: none;
+    outline: none;
+
+    padding-left: 25px;
+
+    font-size: 18px;
+}
+
+.nearest-right button{
+    width: 120px;
+    height: 70px;
+
+    border: none;
+
+    background: #ffe145;
+
+    font-size: 18px;
+    color: #3f4255;
+
+    cursor: pointer;
+}
